@@ -1,0 +1,8 @@
+local BuildPart = Instance.new("Part",game.Workspace)
+BuildPart.Size = Vector3.new(100,3,100)
+BuildPart.Position = Vector3.new(-278.85174560547, -485.87283325195, 263.25778198242)
+BuildPart.Anchored = true
+
+game.Players.LocalPlayer.Character:FindFirstChild("Humanoid").Sit = true
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-278.85174560547, -481.87283325195, 263.25778198242)
