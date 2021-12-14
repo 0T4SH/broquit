@@ -1,4 +1,4 @@
--- hahaha
+ -- wry
 local player = game.Players.LocalPlayer
 local mouse = player:GetMouse()
 
@@ -14,12 +14,12 @@ local utility = {}
 -- themes
 local objects = {}
 local themes = {
-	Background = Color3.fromRGB(223, 223, 223),
-        Glow = Color3.fromRGB(223, 223, 223),
-        Accent = Color3.fromRGB(106, 177, 210),
-        LightContrast = Color3.fromRGB(223, 223, 223),
-        DarkContrast = Color3.fromRGB(106, 177, 210),  
-        TextColor = Color3.fromRGB(13, 105, 172)
+Background = Color3.fromRGB(24, 24, 24),
+Glow = Color3.fromRGB(0, 0, 23),
+Accent = Color3.fromRGB(0, 0, 13),
+LightContrast = Color3.fromRGB(0, 0, 23),
+DarkContrast = Color3.fromRGB(0, 0, 23),  
+TextColor = Color3.fromRGB(0, 51, 170)
 }
 
 do
